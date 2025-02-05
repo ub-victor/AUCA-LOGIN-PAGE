@@ -4,93 +4,108 @@ body {
 }  
 
 .container {  
-    display: flex; /* Use flexbox for layout */  
+    display: flex;  
     height: 100vh; /* Full height of the viewport */  
 }  
 
 .left-side {  
     flex: 1; /* Takes half of the width on larger screens */  
-    padding: 40px;  
-    background-color: white; /* White background for the form */  
+    padding: 40px; /* Padding around */  
+    background-color: white;  
     display: flex;  
     flex-direction: column;  
-    justify-content: center; /* Center align content */  
-    align-items: center; /* Center align content */  
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Optional shadow */  
+    justify-content: center; /* Center elements vertically */  
+    align-items: center; /* Center elements horizontally */  
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);   
 }  
 
 .logo {  
     width: 160px; /* Increased logo width */  
-    height: auto; /* Maintain aspect ratio */  
-    margin-bottom: 20px; /* Space below the logo */  
+    height: auto;  
+    margin-bottom: 20px;  
 }  
 
 .log {  
     font-size: 26px; /* Increased font size */  
-    color: rgb(0, 0, 128); /* Color for login heading */  
+    color: rgb(0, 0, 128);  
     text-align: center; /* Centered text */  
+}  
+
+.welcome {  
+    text-align: center; /* Centered welcome message */  
+    margin-bottom: 20px; /* Space below the welcome message */  
 }  
 
 label {  
     margin-top: 15px; /* Spacing above labels */  
-    text-align: left; /* Align labels to the left */  
+    text-align: left;  
     width: 100%; /* Full width to ensure proper alignment */  
 }  
 
 .carre {  
-    width: 100%; /* Full width for inputs */  
-    padding: 10px; /* Padding inside inputs */  
-    border: 1px solid #9dc0e9; /* Border color */  
-    border-radius: 5px; /* Rounded corners */  
+    width: 100%;   
+    padding: 10px;   
+    border: 1px solid #9dc0e9;   
+    border-radius: 8px; /* Softer border radius */  
     margin-top: 5px; /* Space below inputs */  
+    transition: border-color 0.3s;  
+}  
+
+.carre:focus {  
+    border-color: rgb(0, 0, 160);   
 }  
 
 .p {  
-    width: 100%; /* Full width for button */  
-    padding: 10px; /* Padding for button */  
-    background-color: rgb(44, 44, 117); /* Button color */  
-    color: white; /* Text color */  
-    border: none; /* No border */  
-    border-radius: 5px; /* Rounded corners */  
-    cursor: pointer; /* Pointer on hover */  
-    margin-top: 10px; /* Space above button */  
+    width: 100%;   
+    padding: 12px;   
+    background-color: rgb(44, 44, 117);   
+    color: white;   
+    border: none;   
+    border-radius: 8px; /* Softer border radius */  
+    cursor: pointer;   
+    margin-top: 15px;   
+    transition: background-color 0.3s;   
+}  
+
+.p:hover {  
+    background-color: rgb(33, 33, 90);   
 }  
 
 .forgot-password {  
-    display: block; /* Block display for clarity */  
-    margin-top: 10px; /* Space above link */  
-    color: rgb(0, 0, 160); /* Color for forgot password */  
-    text-align: left; /* Align left */  
+    display: block;   
+    margin-top: 10px;   
+    color: rgb(0, 0, 160);   
+    text-align: left;   
 }  
 
 .checkbox-container {  
-    margin: 15px 0; /* Spacing above and below checkbox */  
-    text-align: left; /* Align checkbox to the left */  
+    margin: 15px 0;   
+    text-align: left;   
 }  
 
 .right-side {  
-    flex: 1; /* Takes half of the width on larger screens */  
+    flex: 1;   
 }  
 
 .right-side img {  
-    width: 100%; /* Image takes full width */  
-    height: 100%; /* Image takes full height */  
-    object-fit: cover; /* Maintain aspect ratio */  
+    width: 100%;   
+    height: 100%;   
+    object-fit: cover;   
 }  
 
 /* Media Queries for Responsive Design */  
 @media (max-width: 768px) {  
     .container {  
-        flex-direction: column; /* Stack elements on small screens */  
+        flex-direction: column;   
     }  
 
     .left-side {  
-        width: 100%; /* Full width for mobile */  
-        padding: 20px; /* Less padding for mobile */  
-        align-items: center; /* Center align contents on mobile */  
+        width: 100%;   
+        padding: 20px;   
+        align-items: center;   
     }  
 
     .right-side {  
-        display: none; /* Hide right side on mobile */  
+        display: none;   
     }  
 }
