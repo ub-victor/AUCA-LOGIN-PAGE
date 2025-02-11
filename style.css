@@ -20,7 +20,7 @@ body {
 }  
 
 .logo {  
-    width: 160px; /* Increased logo width */  
+    width: 455px; /* Increased logo width */  
     height: auto;  
     margin-bottom: 20px;  
 }  
@@ -33,7 +33,8 @@ body {
 
 .welcome {  
     text-align: center; /* Centered welcome message */  
-    margin-bottom: 20px; /* Space below the welcome message */  
+    margin-bottom: 20px; /* Space below the welcome message */
+    font-weight: bold;
 }  
 
 label {  
@@ -56,9 +57,12 @@ label {
 }  
 
 .p {  
-    width: 100%;   
+    display: flex;
+    width: 100px;
+    justify-content: center;/*this it  to put the content in the middle*/ 
+    align-items: center;/*to be  corrected*/
     padding: 12px;   
-    background-color: rgb(44, 44, 117);   
+    background-color: rgb(44, 84, 117);   
     color: white;   
     border: none;   
     border-radius: 8px; /* Softer border radius */  
