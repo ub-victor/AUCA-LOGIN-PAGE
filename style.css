@@ -45,7 +45,7 @@ label {
 
 .carre {  
     width: 100%;   
-    padding: .375rem .75rem;   
+    padding: 10px;   
     border: 1px solid #9dc0e9;   
     border-radius: 8px; /* Softer border radius */  
     margin-top: 5px; /* Space below inputs */  
