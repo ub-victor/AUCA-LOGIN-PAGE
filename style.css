@@ -45,18 +45,31 @@ label {
 
 .carre {  
     width: 100%;   
-    padding: .375rem .75rem;;   
+    padding: 10px;   
     border: 1px solid #9dc0e9;   
     border-radius: 8px; /* Softer border radius */  
     margin-top: 5px; /* Space below inputs */  
-    transition: border-color 0.3s;
-    outline: none;  
+    transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;  
+    outline: none; /* Remove default outline */  
+    box-shadow: none; /* Remove default focus shadow */  
+    background-color: white; /* Background color of input */  
 }  
 
+/* Customize the border color on focus */  
 .carre:focus {  
-    border-color: rgb(0, 0, 160);   
+    border-color: rgb(0, 0, 160);  /* Change border color */  
     box-shadow: 0 0 5px rgba(0, 0, 160, 0.5); /* Optional: Add a subtle shadow effect */  
-} 
+}  
+
+/* Optional: Add a custom property for border color to make it easier to manage */  
+:root {  
+    --bs-border-color: #9dc0e9; /* Default border color */  
+}  
+
+/* Use the custom property in the border */  
+.carre {  
+    border: 1px solid var(--bs-border-color);  
+}
 
 .button-contener{
     display: flex;
