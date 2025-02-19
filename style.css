@@ -45,15 +45,17 @@ label {
 
 .carre {  
     width: 100%;   
-    padding: 10px;   
+    padding: .375rem .75rem;;   
     border: 1px solid #9dc0e9;   
     border-radius: 8px; /* Softer border radius */  
     margin-top: 5px; /* Space below inputs */  
-    transition: border-color 0.3s;  
+    transition: border-color 0.3s;
+    outline: none;  
 }  
 
 .carre:focus {  
     border-color: rgb(0, 0, 160);   
+    box-shadow: 0 0 5px rgba(0, 0, 160, 0.5); /* Optional: Add a subtle shadow effect */  
 } 
 
 .button-contener{
