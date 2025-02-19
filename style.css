@@ -1,6 +1,12 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 body {  
     margin: 0;  
-    font-family: 'Arial', sans-serif;  
+    font-family: 'Arial', sans-serif; 
+    background: white; 
 }  
 
 .container {  
@@ -10,11 +16,12 @@ body {
 
 .left-side {  
     flex: 1; /* Takes half of the width on larger screens */  
-    padding: 40px; /* Padding around */  
+    padding: 40px; /* Padding around */ 
     background-color: white;  
     display: flex;  
     flex-direction: column;  
-    justify-content: center; /* Center elements vertically */  
+    /* Center elements vertically */
+    justify-content: center;  
     align-items: center; /* Center elements horizontally */  
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);   
 }  
@@ -44,11 +51,12 @@ label {
 }  
 
 .carre {  
-    width: 100%;   
+    width: calc(100% - 5px); /* Adjust width to account for right margin */  
     padding: 10px;   
     border: 1px solid #9dc0e9;   
     border-radius: 8px; /* Softer border radius */  
-    margin-top: 5px; /* Space below inputs */  
+    margin-top: 5px; /* Space below inputs */ 
+    margin-right: 5px; /* Add right margin */ 
     transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;  
     outline: none; /* Remove default outline */  
     box-shadow: none; /* Remove default focus shadow */  
@@ -65,6 +73,7 @@ label {
 .button-contener{
     display: flex;
     justify-content: center;
+    margin-bottom: 10px;
 }
 
 .p {  
