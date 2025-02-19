@@ -55,21 +55,12 @@ label {
     background-color: white; /* Background color of input */  
 }  
 
-/* Customize the border color on focus */  
+ 
 .carre:focus {  
-    border-color: rgb(0, 0, 160);  /* Change border color */  
-    box-shadow: 0 0 5px rgba(0, 0, 160, 0.5); /* Optional: Add a subtle shadow effect */  
+    border-color: rgb(28, 174, 231);  /* Change border color */  
+    box-shadow: 0 0 10px rgba(0, 0, 160, 0.5); /* Increased shadow size */  
 }  
 
-/* Optional: Add a custom property for border color to make it easier to manage */  
-:root {  
-    --bs-border-color: #9dc0e9; /* Default border color */  
-}  
-
-/* Use the custom property in the border */  
-.carre {  
-    border: 1px solid var(--bs-border-color);  
-}
 
 .button-contener{
     display: flex;
