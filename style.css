@@ -126,7 +126,7 @@ label {
     .left-side {  
         width: 100%;   
         padding: 20px;   
-        align-items:start;   
+        align-items: center;   
     }  
 
     .right-side {  
