@@ -16,7 +16,6 @@ body {
 
 .left-side {  
     flex: 1; /* Takes half of the width on larger screens */  
-    padding: 40px; /* Padding around */ 
     background-color: white;  
     display: flex;  
     flex-direction: column;  
