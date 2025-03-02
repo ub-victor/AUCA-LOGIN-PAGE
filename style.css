@@ -66,7 +66,7 @@ label {
  
 .carre:focus {  
     border-color: rgb(28, 174, 231);  /* Change border color */  
-    box-shadow: 0 0 10px rgba(0, 0, 160, 0.5); /* Increased shadow size */  
+    box-shadow: 0 0 10px rgba(13, 110, 253, 0.25);
 }  
 
 
