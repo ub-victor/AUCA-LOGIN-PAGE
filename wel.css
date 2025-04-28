@@ -15,12 +15,13 @@ body {
 
 .Wel {
     font-size: 2.5em;
+    padding: 0px 10px;
     margin-bottom: 20px;
     animation: slideIn 1.5s ease-out;
 }
 
 .pro {
-    font-size: 1.2em;
+    font-size: 2.2em;
     margin-bottom: 30px;
     animation: fadeIn 2.5s ease-in-out;
 }
