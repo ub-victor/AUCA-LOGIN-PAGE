@@ -14,7 +14,6 @@ body {
     display: flex;
     height: 100vh;
     background-color: #fff;
-    border-bottom: 2px solid rgb(34, 31, 31);
 }
 
 .left-side {
