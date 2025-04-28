@@ -17,9 +17,9 @@ body {
 
 .left-side {  
     flex: 1; /* Takes half of the width on larger screens */  
-    background-color: white;  
+     
     display: flex;  
-    padding-right: 20px;;
+    padding-right: 20px;
     flex-direction: column;  
     /* Center elements vertically */
     justify-content: center;  
