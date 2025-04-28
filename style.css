@@ -12,7 +12,7 @@ body {
 .container {  
     display: flex;  
     height: 100vh; /* Full height of the viewport */
-    background-color: fff; 
+    background-color: #fff; 
 }  
 
 .left-side {  
