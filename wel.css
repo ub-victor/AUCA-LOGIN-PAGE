@@ -19,7 +19,7 @@ body {
     animation: slideIn 1.5s ease-out;
 }
 
-p {
+.pro {
     font-size: 1.2em;
     margin-bottom: 30px;
     animation: fadeIn 2.5s ease-in-out;
