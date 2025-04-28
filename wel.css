@@ -25,7 +25,7 @@ p {
     animation: fadeIn 2.5s ease-in-out;
 }
 
-button {
+.Button {
     background-color: #ffffff;
     color: #2575fc;
     border: none;
@@ -36,7 +36,7 @@ button {
     transition: transform 0.3s, background-color 0.3s;
 }
 
-button:hover {
+.Button:hover {
     background-color: #6a11cb;
     color: white;
     transform: scale(1.1);
