@@ -115,7 +115,9 @@ label {
     transition: background-color 0.3s;
 }
 
-
+.p:hover {
+    background-color: rgb(44, 84, 117);
+}
 
 .signup {
     text-align: center;
