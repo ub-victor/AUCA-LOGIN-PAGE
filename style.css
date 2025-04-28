@@ -11,13 +11,12 @@ body {
 
 .container {  
     display: flex;  
-    height: 100vh; /* Full height of the viewport */  
-    padding-left: 20px; /* Padding around the container */
+    height: 100vh; /* Full height of the viewport */ 
 }  
 
 .left-side {  
     flex: 1; /* Takes half of the width on larger screens */  
-     
+    background-color: white;  
     display: flex;  
     padding-right: 20px;
     flex-direction: column;  
