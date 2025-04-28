@@ -140,13 +140,6 @@ label {
     object-fit: cover;
 }
 
-.border-botton{
-    width: 500px;
-    height: 10px;
-    padding: 0px 40px ;
-    border-bottom: 2px solid black;
-}
-
 /* Media Queries for Responsive Design */
 @media (max-width: 768px) {
     .container {
