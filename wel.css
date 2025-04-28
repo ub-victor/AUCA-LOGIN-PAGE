@@ -27,7 +27,7 @@ body {
     animation: fadeIn 2.5s ease-in-out;
 }
 
-.Button {
+.Botton {
     background-color: #ffffff;
     color: #2575fc;
     border: none;
@@ -66,6 +66,7 @@ body {
 
 .together{
     font-style: italic;
+    font-size: 25px;
     margin-top: 20px;
     animation: fadeIn 3s ease-in-out;
 }
