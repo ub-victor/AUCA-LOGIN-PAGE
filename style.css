@@ -12,6 +12,7 @@ body {
 .container {  
     display: flex;  
     height: 100vh; /* Full height of the viewport */  
+    padding: 20px; /* Padding around the container */
 }  
 
 .left-side {  
