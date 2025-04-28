@@ -13,7 +13,7 @@ body {
     animation: fadeIn 2s ease-in-out;
 }
 
-h2 {
+.Wel {
     font-size: 2.5em;
     margin-bottom: 20px;
     animation: slideIn 1.5s ease-out;
