@@ -72,7 +72,7 @@ label {
 }
 
 .carre:focus {
-    border: 2px solid rgb(28, 174, 231);
+    border: 4px solid rgb(81, 192, 236);
     border-color: rgb(28, 174, 231);
     box-shadow: 0 0 10px rgba(13, 110, 253, 0.25);
 }
