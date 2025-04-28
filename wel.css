@@ -38,7 +38,7 @@ body {
     transition: transform 0.3s, background-color 0.3s;
 }
 
-.Button:hover {
+.Botton:hover {
     background-color: #6a11cb;
     color: white;
     transform: scale(1.1);
