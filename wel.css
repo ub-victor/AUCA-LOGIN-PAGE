@@ -23,6 +23,7 @@ body {
 .pro {
     font-size: 2.2em;
     margin-bottom: 30px;
+    padding: 0px 10px;
     animation: fadeIn 2.5s ease-in-out;
 }
 
