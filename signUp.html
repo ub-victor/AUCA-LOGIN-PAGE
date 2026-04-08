@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AUCA Registration – Signup</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body, html {
+            height: 100%;
+            font-family: 'Segoe UI', Tahoma, Arial, sans-serif;
+            background: #fff;
+        }
+
+        .page-wrap {
+            display: flex;
+            height: 100vh;
+            width: 100%;
+        }
+
+        .left-panel {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 40px 32px;
+            background: #fff;
+            overflow-y: auto;
+        }
+
+        .inner {
+            width: 100%;
+            max-width: 380px;
+        }
+
+        .logo-wrap {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 22px;
+        }
+
+        .logo-img {
+            width: 220px;
+        }
+
+        h1.page-heading {
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: #1a4799;
+            text-align: center;
+            margin-bottom: 22px;
+        }
+
+        .form-group {
+            margin-bottom: 10px;
+        }
+
+        .field-label {
+            font-size: 0.8rem;
+            color: #333;
+            margin-bottom: 3px;
+            display: block;
+        }
+
+        .form-input {
+            width: 100%;
+            border: 1px solid #bbb;
+            border-radius: 3px;
+            padding: 6px 10px;
+            font-size: 0.87rem;
+        }
+
+        .form-input:focus {
+            border-color: #1a4799;
+        }
+
+        .btn-create {
+            display: block;
+            margin: 20px auto 14px;
+            background: #5b7fba;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            padding: 9px 28px;
+            font-size: 0.9rem;
+            cursor: pointer;
+        }
+
+        .btn-create:hover { background: #1a4799; }
+
+        .bottom-link {
+            display: block;
+            text-align: center;
+            font-size: 0.82rem;
+            color: #555;
+        }
+
+        .bottom-link a {
+            color: #1a4799;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .right-panel {
+            width: 50%;
+            background-image: url("amages/gishushu_campus.jpg"); /* UPDATED */
+            background-size: cover;
+            background-position: center;
+        }
+
+        @media (max-width: 600px) {
+            .page-wrap {
+                flex-direction: column;
+            }
+
+            .left-panel {
+                width: 100%;
+            }
+
+            .right-panel {
+                width: 100%;
+                height: 220px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page-wrap">
+
+        <!-- LEFT PANEL -->
+        <div class="left-panel">
+            <div class="inner">
+
+                <!-- Logo -->
+                <div class="logo-wrap">
+                    <img src="amages/auca_logo.png" alt="AUCA Logo" class="logo-img" />
+                </div>
+
+                <!-- Heading -->
+                <h1 class="page-heading">Create new account</h1>
+
+                <!-- Example error (static only) -->
+                <!--
+                <div class="alert-error">Something went wrong</div>
+                -->
+
+                <!-- Form -->
+                <form method="POST" action="signup.html">
+
+                    <div class="form-group">
+                        <label class="field-label">Enter your ID</label>
+                        <input type="text" name="student_id" class="form-input" placeholder="Enter your Student Reg No" required />
+                    </div>
+
+                    <div class="form-group">
+                        <label class="field-label">Enter your Firstname</label>
+                        <input type="text" name="first_name" class="form-input" placeholder="Enter only your first name" required />
+                    </div>
+
+                    <div class="form-group">
+                        <label class="field-label">Enter your Email</label>
+                        <input type="email" name="email" class="form-input" required />
+                    </div>
+
+                    <div class="form-group">
+                        <label class="field-label">Password</label>
+                        <input type="password" name="password" class="form-input" required />
+                    </div>
+
+                    <div class="form-group">
+                        <label class="field-label">Re-type password</label>
+                        <input type="password" name="confirm_password" class="form-input" required />
+                    </div>
+
+                    <button type="submit" class="btn-create">Create Account</button>
+
+                    <span class="bottom-link">
+                        Already have an account? <a href="login.html">Login</a>
+                    </span>
+                </form>
+
+            </div>
+        </div>
+
+        <!-- RIGHT PANEL -->
+        <div class="right-panel"></div>
+
+    </div>
+</body>
+</html>
